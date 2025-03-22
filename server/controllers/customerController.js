@@ -116,6 +116,7 @@ export const updateAcustomer = asyncHandeler(async(req,res)=>{
           }
       }catch(error){
           return res.status(401).json({'error':'server error'});
+          console.log("Amit");
       }
   })
 
